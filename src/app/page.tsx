@@ -1,7 +1,7 @@
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { Button } from "@/components/ui/button";
 import { ThemeToggle } from "@/components/Theme-Toggle";
-import { Team } from "@/components/team";
+import { Team } from "../components/Team";
 
 const Page = () => {
     return (
