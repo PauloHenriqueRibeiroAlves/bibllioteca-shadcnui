@@ -1,7 +1,7 @@
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { Button } from "@/components/ui/button";
 import { ThemeToggle } from "@/components/Theme-Toggle";
-import { Team } from "../components/Team";
+import { TeamArea } from "../components/team/TeamArea";
 
 const Page = () => {
     return (
@@ -10,7 +10,7 @@ const Page = () => {
                 <Alert>
                     <ThemeToggle/>
                     <AlertTitle>Erro!</AlertTitle>
-                    <Team/>
+                    <TeamArea/>
                 </Alert>
             </div>
         </div>
