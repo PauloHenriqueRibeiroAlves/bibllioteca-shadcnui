@@ -9,7 +9,7 @@ export const TeamArea = () => {
             <CardTitle>Team Menbers</CardTitle>
             <CardDescription>Qualquer coisa na descrição.</CardDescription>
         </CardHeader>
-        <CardContent className="flex flex-col gap-4">
+        <CardContent className="flex flex-col gap-5">
             {menbers.map(item => (
                 <TeamItem key={item.id} data={item}/>
             ))}
